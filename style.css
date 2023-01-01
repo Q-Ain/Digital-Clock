@@ -1,0 +1,97 @@
+body {
+    background-color: #ED83AA;
+    font-family: "Inter";
+    font-weight: 600;
+    color: #F8F5FA;
+}
+
+.whole-clock {
+    margin-top: 6%;
+}
+
+.btn-grid {
+    min-height: 0;
+}
+
+#colourBtn {
+    width: 5em;
+    height: 2.5em;
+    border: none;
+    border-radius: 25% 25% 0 0;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    margin-left: 21%;
+}
+
+#colourBtn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#colourBtn:active {
+    margin-top: 0.5%;
+    height: 2.5em;
+    min-height: 0;
+}
+
+#icon {
+    color: #ED83AA;
+    opacity: 0.8;
+    font-size: large;
+    margin: auto;
+}
+
+.clock-body {
+    width: 70%;
+    background-color: rgba(217, 217, 217, 0.3);
+    border-radius: 10%;
+    padding: 8% 0 8% 0;
+    margin: auto;
+    text-align: center;
+}
+
+#space {
+    position: absolute;
+}
+
+#timeLabel {
+    font-size: 2.25em;
+    opacity: 0.9;
+    padding-right: 1%;
+    padding-left: auto;
+}
+
+#meridiemLabel {
+    font-size: 1.125em;
+    opacity: 0.9;
+}
+
+#dateLabel {
+    font-size: 0.875em;
+    opacity: 0.9;
+}
+
+@media only screen and (min-width: 768px) {
+    #colourBtn {
+        width: 5em;
+        height: 3em;
+        border-radius: 25% 25% 0 0;
+        margin-left: 20%;
+    }
+
+    .clock-body {
+        border-radius: 3.25em;
+    }
+
+    #timeLabel {
+        font-size: 7.375em;
+    }
+    
+    #meridiemLabel {
+        font-size: 2.5em;
+    }
+    
+    #dateLabel {
+        font-size: 2em;
+    }
+}
