@@ -6,7 +6,11 @@ body {
 }
 
 .whole-clock {
-    margin-top: 15%;
+    margin-top: 6%;
+}
+
+.btn-grid {
+    min-height: 0;
 }
 
 #colourBtn {
@@ -16,7 +20,7 @@ body {
     border-radius: 25% 25% 0 0;
     background-color: #FFFFFF;
     opacity: 0.5;
-    margin-left: 22%;
+    margin-left: 21%;
 }
 
 #colourBtn:hover {
@@ -25,8 +29,9 @@ body {
 }
 
 #colourBtn:active {
-    margin-top: 1.8%;
+    margin-top: 1.7%;
     height: 2em;
+    min-height: 0;
 }
 
 #icon {
@@ -45,9 +50,15 @@ body {
     text-align: center;
 }
 
+#space {
+    position: absolute;
+}
+
 #timeLabel {
     font-size: 2.25em;
     opacity: 0.9;
+    padding-right: 1%;
+    padding-left: auto;
 }
 
 #meridiemLabel {
@@ -61,13 +72,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    .whole-clock {
-        margin-top: 6%;
-    }
-
     #colourBtn {
         width: 5em;
         height: 3em;
+        border-radius: 25% 25% 0 0;
         margin-left: 20%;
     }
 
